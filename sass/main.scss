@@ -1,0 +1,18 @@
+@import '_vars';
+@import './modules/_navbar';
+@import './modules/_footer';
+
+
+body {
+  background-color: $global-bg;
+  color: $global-font-color;
+}
+
+h1, h2 { color: $global-font-color; background-color: red; }
+
+section{width:100%}
+
+.do-transform {
+  transform: translate(50%, 50%);
+  user-select: none;
+}
